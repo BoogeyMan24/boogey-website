@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>BoogeyMan</title>
+	<title>Home | BoogeyMan</title>
 </svelte:head>
 
 <script>
@@ -106,7 +106,7 @@
 		<img src="s/layered-peaks-haikei.svg" alt="Upside down mountain transition" class="aspect-[960/300] w-full h-full bottom-0 absolute object-left object-cover">
 	</div>
 </section>
-<section class="h-96 mt-[-12rem]">
+<section class="h-96 mt-[-16rem] relative z-50">
 	<div class="w-[85%] h-full 2xl:w-[60%] mx-auto flex justify-center items-center">
 		<div class="flex flex-col justify-center items-center">
 			<h1 class="test-center text-white text-4xl tracking-wider">Make sure to Check out My Journey! (coming soon!)</h1>
@@ -114,13 +114,13 @@
 		</div>
 	</div>
 </section>
-<section class="h-48 bg-[#141616]">
+<section class="h-48 bg-[#121414]0">
 	<div class="w-[85%] h-full 2xl:w-[60%] mx-auto flex justify-between items-center">
 		<h1 class="text-3xl text-white font-bold flex-1">Boogey</h1>
 		<h2 class="text-md text-white opacity-10 w-full text-center mt-2">17 March 2024</h2>
-		<SocialLink link="https://github.com/BoogeyMan24" logo="octicons-mark-github"/>
+		<SocialLink link="https://github.com/BoogeyMan24" color="#121414s" logo="octicons-mark-github"/>
 		<div class="ml-4">
-			<SocialLink link="https://discordapp.com/users/707265292635734076" logo="discord-mark-white"/>
+			<SocialLink link="https://discordapp.com/users/707265292635734076" color="#121414" logo="discord-mark-white"/>
 		</div>
 	</div>
 </section>
