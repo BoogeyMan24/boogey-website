@@ -46,7 +46,6 @@
 </script>
 
 <!-- from: #252d3e | to: #171a1b -->
-
 <section on:pointermove={handleMove} class="relative overflow-hidden">
 	<div id="blob" class="blob z-0"></div>
 	<div>
@@ -76,7 +75,7 @@
 
 	
 </section>
-<section class="z-30 relative">
+<section on:pointermove={handleMove} class="z-30 relative">
 	<div class="z-30 bg-[#121414] pb-28">
 		<div class="w-[85%] 2xl:w-[60%] mx-auto">
 			<div class="pt-20 pb-12">
@@ -101,12 +100,12 @@
 		</div>
 	</div>
 </section>
-<section class="relative overflow-hidden">
+<section class="relative overflow-hidden z-50">
 	<div class="h-[16rem] md:h-[20rem] rotate-180 xl:h-[24rem] bottom-[-0.1%] w-svw overflow-hidden z-40">
 		<img src="s/layered-peaks-haikei.svg" alt="Upside down mountain transition" class="aspect-[960/300] w-full h-full bottom-0 absolute object-left object-cover">
 	</div>
 </section>
-<section class="h-96 mt-[-16rem] relative z-50">
+<section class="h-96 mt-[-12rem]">
 	<div class="w-[85%] h-full 2xl:w-[60%] mx-auto flex justify-center items-center">
 		<div class="flex flex-col justify-center items-center">
 			<h1 class="test-center text-white text-4xl tracking-wider">Make sure to Check out My Journey! (coming soon!)</h1>
@@ -114,11 +113,11 @@
 		</div>
 	</div>
 </section>
-<section class="h-48 bg-[#121414]0">
+<section class="h-48 bg-[#121414] z-50">
 	<div class="w-[85%] h-full 2xl:w-[60%] mx-auto flex justify-between items-center">
 		<h1 class="text-3xl text-white font-bold flex-1">Boogey</h1>
 		<h2 class="text-md text-white opacity-10 w-full text-center mt-2">17 March 2024</h2>
-		<SocialLink link="https://github.com/BoogeyMan24" color="#121414s" logo="octicons-mark-github"/>
+		<SocialLink link="https://github.com/BoogeyMan24" color="#121414" logo="octicons-mark-github"/>
 		<div class="ml-4">
 			<SocialLink link="https://discordapp.com/users/707265292635734076" color="#121414" logo="discord-mark-white"/>
 		</div>
