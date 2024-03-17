@@ -70,7 +70,7 @@
 		<div></div>
 		<!-- ABSOLUTE POSITIONING -->
 		<div class="h-[16rem] md:h-[20rem] xl:h-[24rem] absolute bottom-[-0.1%] w-svw overflow-hidden z-40">
-			<div class="aspect-[960/300] w-full h-full bottom-0 absolute bg-no-repeat bg-cover bg-[url('s/layered-peaks-haikei.svg')]"></div>
+			<img src="s/layered-peaks-haikei.svg" alt="Mountain transition" class="aspect-[960/300] w-full h-full bottom-0 absolute object-left object-cover">
 		</div>
 	</div>
 
@@ -103,7 +103,7 @@
 </section>
 <section class="relative overflow-hidden">
 	<div class="h-[16rem] md:h-[20rem] rotate-180 xl:h-[24rem] bottom-[-0.1%] w-svw overflow-hidden z-40">
-		<div class="aspect-[960/300] w-full h-full bottom-0 absolute bg-no-repeat bg-cover bg-[url('s/layered-peaks-haikei.svg')]"></div>
+		<img src="s/layered-peaks-haikei.svg" alt="Upside down mountain transition" class="aspect-[960/300] w-full h-full bottom-0 absolute object-left object-cover">
 	</div>
 </section>
 <section class="h-96 mt-[-12rem]">
