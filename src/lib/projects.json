@@ -1,0 +1,112 @@
+[
+	{
+		"title": "This Website",
+		"subtitle": "test",
+		"description": "This is my first completed website made with svelte! Hope you like it and feel free to let me know how I can improve it!",
+
+
+		"id": "boogey-website",
+		"src": "",
+		"file": "",
+		"link": "boogey-website"
+	},
+	{
+		"title": "Gravity Simulator V2",
+		"subtitle": "OpenGL",
+		"description": "I know this looks similar to Gravity Simulator V1, but trust me it's so much <b class='text-'>cooler</b>. Its cover image is literally 3 bodies orbiting each other o_o.",
+
+
+		"id": "gravity-simulator-v2",
+		"src": "solar-system-simulator-v2",
+		"file": ".gif",
+		"link": ""
+	},
+	{
+		"title": "Gravity Simulator V1",
+		"subtitle": "SDL2",
+		"description": "",
+
+
+		"id": "gravity-simulator-v1",
+		"src": "gravity-simulator-v1",
+		"file": ".gif",
+		"link": ""
+	},
+	{
+		"title": "Spoke SMP",
+		"subtitle": "Season 5",
+		"description": "A Minecraft SMP for all of Spoke's community!",
+
+
+		"id": "spokesmp",
+		"src": "printerzam",
+		"file": ".png",
+		"link": "spokesmp"
+	},
+	{
+		"title": "Feather Engine",
+		"subtitle": "Physcis Engine",
+		"description": "",
+
+
+		"id": "featherengine",
+		"src": "",
+		"file": "",
+		"link": ""
+	},
+	{
+		"title": "Science Fair Website",
+		"subtitle": "Winner 2023*",
+		"description": "",
+
+
+		"id": "science-fair-website",
+		"src": "",
+		"file": "",
+		"link": ""
+	},
+	{
+		"title": "Discord Bots",
+		"subtitle": "Mongo DB",
+		"description": "",
+
+
+		"id": "discordbots",
+		"src": "",
+		"file": "",
+		"link": ""
+	},
+	{
+		"title": "MC Plugins",
+		"subtitle": "Scuffed",
+		"description": "",
+
+
+		"id": "mcplugins",
+		"src": "",
+		"file": "",
+		"link": ""
+	},
+	{
+		"title": "Vocabulary Website",
+		"subtitle": "Vocab Practice",
+		"description": "",
+
+
+		"id": "vocabulary",
+		"src": "",
+		"file": "",
+		"link": ""
+	},
+	{
+		"title": "UtilityTools",
+		"subtitle": "Scuffed",
+		"description": "",
+
+
+		"id": "utilitytools",
+		"src": "",
+		"file": "",
+		"link": ""
+	}
+]
