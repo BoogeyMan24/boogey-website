@@ -88,14 +88,6 @@
 		element.scrollIntoView({
 			behavior: "smooth",
 		});
-
-		// let position = element.getBoundingClientRect().top;
-		// let offset = position + window.pageYOffset;
-
-		// window.scrollTo({
-		// 	top: offset,
-		// 	behavior: "smooth",
-		// });
 	}
 </script>
 
@@ -110,7 +102,6 @@
 			<div class="">
 				<h1 class="text-white text-7xl font-bold text-center tracking-wide mb-4">Hey, I'm <span class="underline">Boogey</span>!</h1>
 				<h2 class="text-gray-300 font-medium text-center mb-4 text-xl">An aspiring software engineer.</h2>
-				
 			</div>
 			<div class="w-full flex justify-center">
 				<button on:click|preventDefault={() => scrollToElement("projects")} class="mt-4 pt-2 pb-2 pl-10 pr-10 rounded-3xl bg-white">My Projects</button>
@@ -152,7 +143,7 @@
 		</div>
 	</div>
 </section>
-<section class="relative overflow-hidden z-50">
+<section class="pointer-events-none relative overflow-hidden z-50">
 	<div class="pointer-events-none h-[16rem] md:h-[20rem] rotate-180 xl:h-[24rem] bottom-[-0.1%] w-svw overflow-hidden z-40">
 		<img src="s/layered-peaks-haikei.svg" alt="Upside down mountain transition" class="aspect-[960/300] w-full h-full bottom-0 absolute object-left object-cover">
 	</div>
@@ -165,16 +156,7 @@
 		</div>
 	</div>
 </section>
-<section class="h-48 bg-[#121414] z-50">
-	<div class="w-[85%] h-full 2xl:w-[60%] mx-auto flex justify-between items-center">
-		<h1 class="text-3xl text-white font-bold flex-1">Boogey</h1>
-		<h2 class="text-md text-white opacity-10 w-full text-center mt-2">17 March 2024</h2>
-		<SocialLink link="https://github.com/BoogeyMan24" color="#121414" logo="octicons-mark-github"/>
-		<div class="ml-4">
-			<SocialLink link="https://discordapp.com/users/707265292635734076" color="#121414" logo="discord-mark-white"/>
-		</div>
-	</div>
-</section>
+
 
 
 <style lang="postcss">

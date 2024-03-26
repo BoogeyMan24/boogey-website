@@ -3,7 +3,10 @@
 
 	function scrollTo(id) {
 		const section = document.getElementById(id);
-		if (!section) return;
+		if (!section) {
+			window.location.href = "/";
+			return;
+		}
 		
 		section.scrollIntoView({ behavior: "smooth" });
 	}
@@ -17,10 +20,7 @@
 		<div class="">
 			<ul class="">
 				<li class="inline ml-12 text-white">
-					<button on:click|preventDefault={() => scrollTo("projects")} href="projects" class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Projects</button>
-				</li>
-				<li class="inline ml-12 text-white">
-					<a href="about-me" class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">About Me</a>
+					<button on:click|preventDefault={() => scrollTo("projects")} href="projects"><span class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Projects</span></button>
 				</li>
 				<li class="inline ml-12 text-white">
 					<a href="contact" class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Contact</a>
