@@ -1,14 +1,25 @@
 [
 	{
 		"title": "This Website",
-		"subtitle": "test",
+		"subtitle": "SvelteKit",
 		"description": "This is my first completed website made with svelte! Hope you like it and feel free to let me know how I can improve it!",
 
 
 		"id": "boogey-website",
-		"src": "",
-		"file": "",
+		"src": "boogey-website",
+		"extension": ".png",
 		"link": "boogey-website"
+	},
+	{
+		"title": "My Old Website",
+		"subtitle": "Static HTML",
+		"description": "I made this with it being portfolio in mind, but ended up not finishing it. Still pretty interest since this is what taught me a lot about css",
+
+
+		"id": "boogeyman-website",
+		"src": "boogeyman",
+		"extension": ".png",
+		"link": "boogeyman-website"
 	},
 	{
 		"title": "Gravity Simulator V2",
@@ -18,7 +29,7 @@
 
 		"id": "gravity-simulator-v2",
 		"src": "solar-system-simulator-v2",
-		"file": ".gif",
+		"extension": ".gif",
 		"link": ""
 	},
 	{
@@ -29,41 +40,30 @@
 
 		"id": "gravity-simulator-v1",
 		"src": "gravity-simulator-v1",
-		"file": ".gif",
-		"link": ""
-	},
-	{
-		"title": "Spoke SMP",
-		"subtitle": "Season 5",
-		"description": "A Minecraft SMP for all of Spoke's community!",
-
-
-		"id": "spokesmp",
-		"src": "printerzam",
-		"file": ".png",
-		"link": "spokesmp"
-	},
-	{
-		"title": "Feather Engine",
-		"subtitle": "Physcis Engine",
-		"description": "",
-
-
-		"id": "featherengine",
-		"src": "",
-		"file": "",
+		"extension": ".gif",
 		"link": ""
 	},
 	{
 		"title": "Science Fair Website",
 		"subtitle": "Winner 2023*",
-		"description": "",
+		"description": "This was the website I made for the 2023 science fair at my school. It was a quiz website where you had to choose if an image or poem was real or AI generated.",
 
 
 		"id": "science-fair-website",
-		"src": "",
-		"file": "",
-		"link": ""
+		"src": "science-fair-website",
+		"extension": ".png",
+		"link": "science-fair-website"
+	},
+	{
+		"title": "Vocabulary Site",
+		"subtitle": "Vocab Practice",
+		"description": "This project was the first time I properly connected ",
+
+
+		"id": "vocabulary",
+		"src": "vocabulary",
+		"extension": ".png",
+		"link": "vocabulary-website"
 	},
 	{
 		"title": "Discord Bots",
@@ -73,7 +73,7 @@
 
 		"id": "discordbots",
 		"src": "",
-		"file": "",
+		"extension": "",
 		"link": ""
 	},
 	{
@@ -84,18 +84,7 @@
 
 		"id": "mcplugins",
 		"src": "",
-		"file": "",
-		"link": ""
-	},
-	{
-		"title": "Vocabulary Website",
-		"subtitle": "Vocab Practice",
-		"description": "",
-
-
-		"id": "vocabulary",
-		"src": "",
-		"file": "",
+		"extension": "",
 		"link": ""
 	},
 	{
@@ -106,7 +95,7 @@
 
 		"id": "utilitytools",
 		"src": "",
-		"file": "",
+		"extension": "",
 		"link": ""
 	}
 ]

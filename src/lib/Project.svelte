@@ -25,7 +25,7 @@
 		<div id="{id}" class="blob relative bg-[#1d2027] h-full rounded-b-xl border-t-[1px] border-gray-800">
 			<div class="flex justify-between">
 				<div>
-					<h1 class="text-white text-xl font-bold ml-6 mt-4 inline-block">{@html title}</h1>
+					<h1 class="text-white text-[calc(0..5em_+_0.6vw)] font-bold ml-6 mt-4 inline-block">{@html title}</h1>
 					<img src="/s/projects/misc/arrow.svg" class="rotate-[135deg] mt-[-0.25rem] inline-block">
 				</div>
 				<h1 class="text-gray-300 text-sm font-bold ml-6 mt-[1.2rem] mr-6">{@html subtitle}</h1>
