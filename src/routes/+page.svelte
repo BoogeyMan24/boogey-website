@@ -93,7 +93,7 @@
 
 <!-- from: #252d3e | to: #171a1b -->
 <section on:pointermove={handleMove} class="relative overflow-hidden">
-	<div id="blob" class="blob z-0"></div>
+	<div id="blob" class="blob z-0 blur-[200px] transform-gpu"></div>
 	<div class="z-20 relative w-[85%] 2xl:w-[60%] mx-auto h-24">
 		<Nav />
 	</div>
@@ -209,9 +209,6 @@
 		height: 1200px;
 		background: radial-gradient(circle at center,rgba(255,255,255, var(--opacity)),transparent var(--transperancy));
 		/* animation: rotate 20s infinite; */
-		filter: blur(200px);
-		-webkit-filter: blur(200px);
-		-moz-filter: blur(200px);
 
 		animation: opacity 1s forwards 1s;
 	}

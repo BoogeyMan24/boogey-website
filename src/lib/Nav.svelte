@@ -1,10 +1,11 @@
 <script>
 	import NavItem from "$lib/NavItem.svelte";
+	import { goto } from "$app/navigation";
 
 	function scrollTo(id) {
 		const section = document.getElementById(id);
 		if (!section) {
-			window.location.href = "/";
+			goto("/");
 			return;
 		}
 		
@@ -20,7 +21,7 @@
 		<div class="">
 			<ul class="">
 				<li class="inline ml-12 text-white">
-					<button on:click|preventDefault={() => scrollTo("projects")} href="projects"><span class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Projects</span></button>
+					<button on:click|preventDefault={() => scrollTo("projects")} href="/"><span class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Projects</span></button>
 				</li>
 				<li class="inline ml-12 text-white">
 					<a href="contact" class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Contact</a>
