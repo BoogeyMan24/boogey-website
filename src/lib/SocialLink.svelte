@@ -6,9 +6,9 @@
 
 
 <a href="{link}">
-	<div class="aspect-square border-white w-12 h-12">
+	<div class="aspect-square border-white w-10 h-10">
 			<div class="w-full h-full hover:scale-[105%] rounded-lg bg-[{color}] border-[2px] border-[#252931] flex justify-center">
-				<img src="/s/misc/{logo}.svg" alt="github logo" class="w-8 h-auto">
+				<img src="/s/misc/{logo}.svg" alt="github logo" class="w-6 h-auto">
 			</div>
 	</div>
 </a>

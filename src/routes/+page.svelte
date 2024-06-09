@@ -151,8 +151,8 @@
 <section class="h-96 mt-[-12rem]">
 	<div class="w-[85%] h-full 2xl:w-[60%] mx-auto flex justify-center items-center">
 		<div class="flex flex-col justify-center items-center">
-			<h1 class="test-center text-white text-4xl tracking-wider">Make sure to Check out My Journey! (coming soon!)</h1>
-			<button class="mt-12 rounded-3xl bg-white w-56 h-10">Take me there!</button>
+			<h1 class="test-center text-white text-4xl tracking-wider">Make sure to Check out My Journey!</h1>
+			<button disabled class="mt-12 rounded-3xl bg-white w-56 h-10 hover:cursor-not-allowed opacity-50">Coming Soon</button>
 		</div>
 	</div>
 </section>

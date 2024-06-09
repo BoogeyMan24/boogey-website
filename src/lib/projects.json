@@ -2,7 +2,7 @@
 	{
 		"title": "This Website",
 		"subtitle": "SvelteKit",
-		"description": "This is my first completed website made with svelte! Hope you like it and feel free to let me know how I can improve it!",
+		"description": "This is my first completed website made with SvelteKit! It is self-hosted using Nginx and Cloudflare on a Raspberry Pi 4 at my home.",
 
 
 		"id": "boogey-website",
@@ -13,7 +13,7 @@
 	{
 		"title": "My Old Website",
 		"subtitle": "Static HTML",
-		"description": "I made this with it being portfolio in mind, but ended up not finishing it. Still pretty interest since this is what taught me a lot about css",
+		"description": "I made this with it being portfolio in mind, but ended up not finishing it. This was the first time I really dived into learning CSS.",
 
 
 		"id": "boogeyman-website",
@@ -35,7 +35,7 @@
 	{
 		"title": "Gravity Simulator V1",
 		"subtitle": "SDL2",
-		"description": "",
+		"description": "This project was the project that taught me all about C++ and memory management. I used SDL2 to render all the planet (circles) and it just introduced me into computer graphics.",
 
 
 		"id": "gravity-simulator-v1",
@@ -44,7 +44,7 @@
 		"link": ""
 	},
 	{
-		"title": "Science Fair Website",
+		"title": "Science Fair",
 		"subtitle": "Winner 2023*",
 		"description": "This was the website I made for the 2023 science fair at my school. It was a quiz website where you had to choose if an image or poem was real or AI generated.",
 
@@ -55,9 +55,20 @@
 		"link": "science-fair-website"
 	},
 	{
-		"title": "Vocabulary Site",
+		"title": "Learn to Code",
+		"subtitle": "WIP",
+		"description": "The ultimate free website to learning to code. It will incorporate Project-Based learning and Just-in-Time learning for both entertainment and effectiveness. However, it is still a work-in-progress.",
+
+
+		"id": "learn-to-code",
+		"src": "learn-to-code",
+		"extension": ".png",
+		"link": ""
+	},
+	{
+		"title": "Vocab Site",
 		"subtitle": "Vocab Practice",
-		"description": "This project was the first time I properly connected ",
+		"description": "I made this website because I wanted to help my classmates memorize Hamlet vocabulary for my English class. It is a very interesting project because it highlights the importance of UX and UI design.",
 
 
 		"id": "vocabulary",

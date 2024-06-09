@@ -24,7 +24,7 @@
 					<button on:click|preventDefault={() => scrollTo("projects")} href="/"><span class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Projects</span></button>
 				</li>
 				<li class="inline ml-12 text-white">
-					<a href="contact" class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Contact</a>
+					<a href="/contact" class="hover:border-b-2 hover:animate-[fade_0.1s_ease-in-out]">Contact</a>
 				</li>
 			</ul>
 		</div>
